@@ -1,0 +1,21 @@
+{
+  "name": "telebot",
+  "version": "1.0.0",
+  "description": "telegram bot that checks methods in smart contract",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Viachaslau Rouski",
+  "license": "ISC",
+  
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "wds-near-contract-parser": "0.1.5",
+    "near-api-js": "^1.1.0",
+    "telegraf": "^4.11.2"
+  },
+  "engines": {
+    "node": "12.16.2"
+  }
+}

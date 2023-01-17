@@ -1,0 +1,12 @@
+[package]
+name = "nr-token"
+version = "1.0.0"
+authors = ["Viachslau Rouski"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-contract-standards = "=4.0.0-pre.9"
+near-sdk = "=4.0.0-pre.9"
